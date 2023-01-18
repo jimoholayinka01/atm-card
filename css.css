@@ -1,0 +1,40 @@
+@font-face {
+    font-family: use;
+    src: url(./NotoSans-Bold.ttf);
+  }
+  @font-face {
+    font-family: usex;
+    src: url(./NotoSans-Regular.ttf);
+  }
+  body{ padding: 0px; margin: 0px;}
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
+  .side-bar{ width: 30%;height: 90vh; background-color: red; background-image: url(./images/bg-main-desktop.png); position: relative;}
+  .card{width: 430px; height: 240px; border-radius: 10px; background-image: url(./images/bg-card-front.png);margin-left: 30px;position: absolute; left: 50px;top: 120px;}
+  .card-back{width: 430px; height: 240px; border-radius: 10px; background-image: url(./images/bg-card-back.png);margin-left: 30px;position: absolute; left: 100px;top: 380px;}
+  .circle{width: 50px; height: 50px; border-radius: 100%; background-color: white;}
+  .circle2{width: 30px; height: 30px; border-radius: 100%; background-color: transparent;border: 1px solid white; }
+  .circ-cont{display: flex; width: 120px; margin-left: 20px; justify-content: space-around; align-items: center; height: 100px;}
+  .card-no{margin-top: 30px; margin-left:30px ;}
+  .card-no input{width: 90%; font-size: 27px; color:white; background-color: transparent;border: none;font-family: monospace;}
+  .card-no input::placeholder{color: white;font-family: Verdana, Geneva, Tahoma, sans-serif;}
+  .name-cont{display: flex; width: 85%;margin-top: 20px;color: white; margin-left: 30px;justify-content: space-between;font-family: Verdana, Geneva, Tahoma, sans-serif;}
+  .cvv{color: white; margin-top: 110px;text-align: left;margin-left: 350px;font-family: Verdana, Geneva, Tahoma, sans-serif;}
+  #mm{width: 70px;height: 35px; border-radius: 5px; border: 1px solid grey;font-family: usex;font-size: 17px;}
+  #yy{width: 70px;height: 35px; border-radius: 5px; border: 1px solid grey;font-family: usex;font-size: 17px;}
+  #cvv1{width: 120px;height: 35px; border-radius: 5px; border: 1px solid grey;font-family: usex;font-size: 17px;}
+  #inpname{height: 35px; border-radius: 5px; border: 1px solid grey;margin-bottom: 20px;width: 280px;font-family: usex;font-size: 17px;}
+  #cardNumber1{height: 35px; border-radius: 5px; border: none;margin-bottom: 5px;width: 280px;font-family: usex;font-size: 17px;outline: none;}
+  .cardHolder{border: 1px solid grey;border-radius: 5px; display: flex;align-items: center;width: 290px;}
+  #cardNumber1::placeholder{font-family: usex;font-size: 17px;color: rgb(207, 205, 203);}
+  #cardLogo{width: 35px;height: 35px;border-radius: 100%; display: none;background-size: cover;}
+  #inpname::placeholder{font-family: usex;font-size: 17px;color: rgb(207, 205, 203);}
+  #mm::placeholder{font-family: usex;font-size: 17px;color: rgb(207, 205, 203);}
+  #yy::placeholder{font-family: usex;font-size: 17px;color: rgb(207, 205, 203);}
+  #cvv1::placeholder{font-family: usex;font-size: 17px;color: rgb(207, 205, 203);}
+  #butt{margin-top: 20px;width: 300px;height: 45px;border-radius: 5px;border-color: transparent;background-color: #1c0d3f; color: white;
+    font-family: usex;font-size: 17px;}
+  #errorName{color: red; margin-top: -15px;display: none;}
+  #errorCard{color: red; margin-top: -15px;display: none;}
+  #errorDate{color: red; display: none;}
+  #errorCVV{color: red; display: none;}
